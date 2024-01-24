@@ -488,11 +488,20 @@ main section:nth-child(2) p {
     border: solid thin #000;
     left: 0;
     right: unset;
-
+    
 }
 
 .menu-options li:last-child.active::before{
     right: 0;
     left: unset;
     border: solid thin #fff;
+}
+
+.menu-options li:last-child.active i:first-child{
+    color:#fff
+}
+
+.menu-options li:last-child.active{
+    background-color: chocolate;
+    border: solid 2px #fff;
 }
