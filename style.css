@@ -505,3 +505,55 @@ main section:nth-child(2) p {
     background-color: chocolate;
     border: solid 2px #fff;
 }
+
+
+body.active nav {
+    background-color: #313131;
+ 
+}
+
+body.active nav ul {
+    background-color: #313131;
+}
+
+body.active nav ul li a {
+    color: #cfcfcf;
+}
+
+body.active .header__info {
+    background-color: #2c2c2c;
+}
+
+body.active h1 {
+  color: #fdc21c;
+}
+
+body.active .descripcion {
+  color:#cfcfcf;
+}
+
+body.active main section:first-child {
+    background-color: #313131;
+  }
+
+  body.active main section:first-child article h2{
+    color: #fff;
+  }
+  
+  body.active main section:first-child article p{
+    color: #bdbdbd;
+  }
+
+  body.active main section:nth-child(2){
+    background-color: #2c2c2c;
+  }
+
+  body.active main section:nth-child(2) h2{
+   color:#fff;
+  }
+
+  body.active main section:nth-child(2) > p{
+    color:#bdbdbd;
+   }
+
+   
